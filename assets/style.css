@@ -10,10 +10,14 @@ body{
 
 }
 .cafes{
-    text-align: center;
-    align-items: left;
     border-radius: 20px}
 
 #cafe-Titulo{
     color: white;
+}
+#comida-Titulo{
+    color: white;
+}
+.comidas{
+    border-radius: 20px;
 }
