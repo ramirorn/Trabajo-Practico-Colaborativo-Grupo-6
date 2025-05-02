@@ -4,3 +4,16 @@ body{
     background: linear-gradient(to right, #FFB88C, #DE6262);
     
 }
+#titulo{
+    text-align: center;
+    color: black;
+
+}
+.cafes{
+    text-align: center;
+    align-items: left;
+    border-radius: 20px}
+
+#cafe-Titulo{
+    color: white;
+}
