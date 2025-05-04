@@ -1,3 +1,6 @@
+.navbar{
+    background-color: rgb(126, 18, 18);
+}
 .nav-item{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -16,9 +19,26 @@
 .navbar-brand:hover{
     transform: translateY(-2px);
 }
-body{
-    background-image: url(img/fondo-merienda.jpg);
+.fondo-contenedor1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pastel-fresa.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+}
+ .Contenedor1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 600px;
+ }
+ .card-body{
+    background-color: rgb(126, 18, 18);
+ }
+ .card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+.texto-contenedor2{
+    margin-right: 545px;
+    /* padding-left: 10px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(126, 18, 18);
 }
