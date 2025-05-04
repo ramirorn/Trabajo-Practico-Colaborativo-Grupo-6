@@ -1,9 +1,14 @@
 .navbar{
-    background-color: rgb(126, 18, 18);
+    background-color: rgb(128, 38, 38);
+    height: 150px;
 }
 .nav-item{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.nav-link.active {
+    border-bottom: 3px solid white;
+    color: #fff !important;
+  }
 .nav-item:hover{
     transform: translateY(-3px);
 }
@@ -37,8 +42,10 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
  }
 .texto-contenedor2{
-    margin-right: 545px;
-    /* padding-left: 10px; */
+    margin-right: 480px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(126, 18, 18);
+}
+.col{
+    background-color: rgb(228, 226, 226);
 }
