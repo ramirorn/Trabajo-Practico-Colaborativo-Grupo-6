@@ -49,3 +49,10 @@
 .col{
     background-color: rgb(228, 226, 226);
 }
+.footer{
+    background-color: rgb(126, 18, 18)
+}
+.textoespecialidad{
+    color: rgb(126, 18, 18);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
