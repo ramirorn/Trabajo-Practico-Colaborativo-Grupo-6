@@ -22,3 +22,10 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.body-contacto {
+    background-image: url(img/fondo-cafe.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

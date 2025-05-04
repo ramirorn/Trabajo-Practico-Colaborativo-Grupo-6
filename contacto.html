@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
-<body>
+<body class="body-contacto">
   <nav>
     <nav class="navbar navbar-expand-lg bg-warning shadow-lg">
       <div class="container-fluid">
@@ -42,36 +42,46 @@
       <img src="assets/img/logo texto_transparent.png" alt="" width="140" height="70" class="me-4 logo-hover">
     </nav>
   </nav>
-  <div class="d-flex justify-content-center mt-5">
-    <div class="card p-4 shadow" style="width: 30rem;">
-      <form>
-        <div class="mb-3">
-          <label for="nombre-formulario">Nombre</label>
-          <input type="text" class="form-control" id="nombre-formulario">
+
+  <div class="container-xl">
+    <div class="d-flex justify-content-center mt-5">
+      <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-5">
+        <div class="card p-4 shadow bg-dark bg-opacity-75 text-light rounded-4 w-100"
+          style="max-width: 30rem; margin: auto;">
+          <form>
+            <div class="mb-3">
+              <label for="nombre-formulario">Nombre</label>
+              <input type="text" class="form-control" id="nombre-formulario" placeholder="Nombre y apellido...">
+            </div>
+            <div class="mb-3">
+              <label for="correo-formulario">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo-formulario" placeholder="nombre@gmail.com">
+            </div>
+            <div class="mb-3">
+              <label for="mensaje-formulario">Deje su mensaje!</label>
+              <textarea name="" id="mensaje-formulario" class="form-control" rows="3"
+                placeholder="Escribe tu mensaje aquí..."></textarea>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-danger w-100">Subir</button>
+            </div>
+          </form>
+          <div class="text-center mt-4">
+            <p class="mb-3">También puedes encontrarnos en:</p>
+            <a href="https://www.facebook.com/share/1CJNzzJimM/?mibextid=qi2Omg" target="_blank"
+              class="text-decoration-none mx-2 text-primary fs-4">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/ramirorn_?igsh=Z2wycHY5am9pNjRo" target="_blank"
+              class="text-decoration-none mx-2 text-danger fs-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/qr/HR3GAHWCGSMAH1" target="_blank"
+              class="text-decoration-none mx-2 text-success fs-4">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
         </div>
-        <div class="mb-3">
-          <label for="correo-formulario">Ingrese su correo electrónico</label>
-          <input type="email" class="form-control" id="correo-formulario" placeholder="nombre@gmail.com">
-        </div>
-        <div class="mb-3">
-          <label for="mensaje-formulario">Deje su mensaje!</label>
-          <textarea name="" id="mensaje-formulario" class="form-control" rows="3"></textarea>
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="form-control">Subir</button>
-        </div>
-      </form>
-      <div class="text-center mt-4">
-        <p class="mb-3">También puedes encontrarnos en:</p>
-        <a href="https://www.facebook.com/share/1CJNzzJimM/?mibextid=qi2Omg" target="_blank" class="text-decoration-none mx-2 text-primary fs-4">
-          <i class="fab fa-facebook"></i>
-        </a>
-        <a href="https://www.instagram.com/ramirorn_?igsh=Z2wycHY5am9pNjRo" target="_blank" class="text-decoration-none mx-2 text-danger fs-4">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://wa.me/qr/HR3GAHWCGSMAH1" target="_blank" class="text-decoration-none mx-2 text-success fs-4">
-          <i class="fab fa-whatsapp"></i>
-        </a>
       </div>
     </div>
   </div>
