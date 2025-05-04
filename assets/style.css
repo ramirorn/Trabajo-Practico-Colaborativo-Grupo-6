@@ -1,12 +1,12 @@
 body{
+    background-color: #802626;;
 }
 
 /* INICIO DEL CSS DE ERIC */
-/* hola mundo je´í */
+.btn:hover{
+background-color: black;
+color: wheat;
+transition: 0.5s;
+font-size: 20px;
+}
 /* FIN DEL CSS DE ERIC */
-.image-square img {
-    width: 200px;
-    height:200px;
-    object-fit: cover;    /* Recorta la imagen sin deformarla */
-    object-position: center; /* Centra la imagen */
-  }
