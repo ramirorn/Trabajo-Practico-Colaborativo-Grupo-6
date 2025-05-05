@@ -1,62 +1,93 @@
-.navbar{
+body {
+    background-color: #802626;
+    ;
+}
+
+.navbar {
     background-color: rgb(128, 38, 38);
     height: 150px;
 }
-.navbar{
+
+.navbar {
     background-color: rgb(128, 38, 38);
     height: 150px;
 }
-.nav-item{
+
+.nav-item {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .nav-link.active {
     border-bottom: 3px solid white;
     color: #fff !important;
-  }
-.nav-item:hover{
+}
+
+.nav-item:hover {
     transform: translateY(-3px);
 }
-.logo-hover{
+
+.logo-hover {
     transition: transform 0.3s ease;
 }
-.logo-hover:hover{
+
+.logo-hover:hover {
     transform: translateY(-2px);
 }
-.navbar-brand{
+
+.navbar-brand {
     transition: transform 0.3s ease;
 }
-.navbar-brand:hover{
+
+.navbar-brand:hover {
     transform: translateY(-2px);
 }
-.fondo-contenedor1{
+
+.fondo-contenedor1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/pastel-fresa.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
- .Contenedor1{
+
+.Contenedor1 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 600px;
- }
- .card-body{
+}
+
+.card-body {
     background-color: rgb(126, 18, 18);
- }
- .card-title{
+}
+
+.card-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
- }
-.texto-contenedor2{
+}
+
+.texto-contenedor2 {
     margin-right: 480px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(126, 18, 18);
 }
-.col{
+
+.col {
     background-color: rgb(228, 226, 226);
 }
-.footer{
+
+.footer {
     background-color: rgb(126, 18, 18)
 }
-.textoespecialidad{
+
+.textoespecialidad {
     color: rgb(126, 18, 18);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* INICIO DEL CSS DE ERIC */
+.btn:hover {
+    background-color: black;
+    color: wheat;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+/* FIN DEL CSS DE ERIC */
